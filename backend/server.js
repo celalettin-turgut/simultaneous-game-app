@@ -1,6 +1,7 @@
 import express from 'express';
 import { config } from 'dotenv';
 // import connectDB from './config/db.js';
+import colors from 'colors';
 
 import basicRouter from './routers/basicRouter.js';
 
