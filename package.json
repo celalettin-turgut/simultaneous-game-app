@@ -1,0 +1,37 @@
+{
+    "name": "simultaneous-game-app",
+    "version": "1.0.0",
+    "description": "A web application lets users to use it or play in it simultaneously",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon backend/server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hiroimono/simultaneous-game-app.git"
+    },
+    "keywords": [
+        "MERN-stack",
+        "react",
+        "simultaneous-web-app",
+        "socket-io"
+    ],
+    "author": "hiroimono",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hiroimono/simultaneous-game-app/issues"
+    },
+    "homepage": "https://github.com/hiroimono/simultaneous-game-app#readme",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.12.10"
+    },
+    "devDependencies": {
+        "concurrently": "^6.1.0"
+    }
+}
