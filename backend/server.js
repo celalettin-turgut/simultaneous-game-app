@@ -5,7 +5,7 @@ import colors from 'colors';
 import userRouter from './routers/userRouter.js';
 import { notFound, errorHandler } from './middleware/errorMiddleware.js';
 
-
+console.log("test test test")
 config();
 connectDB();
 const app = express();
