@@ -9,6 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        {console.log('This is the first commit from Celalettin')}
         <a
           className="App-link"
           href="https://reactjs.org"
